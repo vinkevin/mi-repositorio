@@ -17,4 +17,5 @@ es una carpeta donde se guardan todos las versiones hechas en el proyecto
 ¿para que sirve el comando git init?
 $ git init ---> inicia el repositorio
 
-
+¿para que sirve el comando git --help?
+$ git --help ---> muestra los comandos que se puede usar
