@@ -19,3 +19,6 @@ $ git init ---> inicia el repositorio
 
 ¿para que sirve el comando git --help?
 $ git --help ---> muestra los comandos que se puede usar
+
+#########################
+Creacion de una rama para una prueba
