@@ -42,7 +42,19 @@ es como una division que creara "una copia" del repositorio donde se podra hacer
 permiten un desarrollo no lineal y colaborativo donde otras paersonas puedan colaborar
 
 
-esto es una prueba para la rama c qqqqqqqqqqq
+¿Como fusionar ramas?
+nos referimos a que los cambios de la rama se integran en otra rama 
+$ git merge ---> comando para fusionar ramas
 
+acabamos de fusionar un archivo c++ de rama_c a la rama principal master
+
+¿por que eliminar ramas?
+por buena practica y las ramas tienen un proposito unico de corto periodo
+
+comandos sobre ramas
+$ git branch ---->ver ramas
+$ git switch nombreRama ---> cambiar de rama
+$ git checkout nombreRama ---> cambiar de rama
+$ git checkout -b nombreRama -----> creamos una rama
 
 
