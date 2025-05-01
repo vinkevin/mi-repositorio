@@ -57,4 +57,10 @@ $ git switch nombreRama ---> cambiar de rama
 $ git checkout nombreRama ---> cambiar de rama
 $ git checkout -b nombreRama -----> creamos una rama
 
+conflictos en git?????
+eso sucede cuando se ha realizado cambios en las mismas lineas en un fichero
+¿Como resolver?
+nos quedamos con los cambios de la rama main
+nos quedamos con los cambios de la rama changes
+modificamos para hacer una fusion personalizada
 
