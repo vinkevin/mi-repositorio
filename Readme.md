@@ -88,3 +88,30 @@ o
 2 ir al apartado Pull Request
 ## prueba de imagen
 ![imagen](img/desastre9.jpg)
+
+# clase 5
+## ¿Que es un gitFlow?
+es la manera en que un equipo de desarrollo utiliza Git
+
+## git flow
+es el flujo de trabajo mas antiguo, utiliza las ramas:
+1 main o master: contener el codigo de produccion
+2 develop: codigo que esta en desarrollo en pruebas y ser validada
+
+## GitHub Flow
+Rama main y yalquiera otra rama que quiera ser integrada da un Pull Request
+
+## Trunk Based Development
+solo la rama main y ramas auxiliares efimeras que quiera ser integrada por medio de una Pull Request
+util si se cuenta cn un sistema CI/CD
+
+## Ship/Show/Ask
+1 ship: se fusiona una rama principal sin revision
+2 show: abre una paticion de cambios para que sea revisado por CI
+3 Ask: abre una P para discutir los cambios antes de fusionarlos
+## Reglas de SSA
+-tenemos un vuen sistema de CI/CD
+-confiamos en el equipo y existen las buenas practicas de desarrollo
+- Las revisiones de codigo no son requerimients
+-Las ramas son lo mas pequeñas con un tiempo de vida corto y salen directaente de la rama principal
+-El equipo sabe lidiar con el ego individual, las personas confian en el resto del equipo
