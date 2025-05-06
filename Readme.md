@@ -97,9 +97,12 @@ es la manera en que un equipo de desarrollo utiliza Git
 es el flujo de trabajo mas antiguo, utiliza las ramas:
 1 main o master: contener el codigo de produccion
 2 develop: codigo que esta en desarrollo en pruebas y ser validada
+![imagenGit](img/images.png)
 
 ## GitHub Flow
 Rama main y yalquiera otra rama que quiera ser integrada da un Pull Request
+
+![imagenGithub](img/gibhub.png)
 
 ## Trunk Based Development
 solo la rama main y ramas auxiliares efimeras que quiera ser integrada por medio de una Pull Request
