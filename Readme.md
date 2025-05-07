@@ -118,3 +118,60 @@ util si se cuenta cn un sistema CI/CD
 - Las revisiones de codigo no son requerimients
 -Las ramas son lo mas pequeñas con un tiempo de vida corto y salen directaente de la rama principal
 -El equipo sabe lidiar con el ego individual, las personas confian en el resto del equipo
+
+
+# clase 6
+
+## ¿Para que sirven las buenas practicas?
+-es un estandar en los equipos de desarrollo
+-al tener conflictos o problemas en el desarrollo se resuelve mas facil
+-tu historial de commits es mas legible
+
+## 1 ¿Cada cuanto hacer un commit?
+a menudo, es mejor hacer commits pequeños agrupando pequeñas mejoras o acciones 
+ojo, no significa que debas hacer commits sin sentido
+Haz un commit cuando hay un cambio significatvo
+
+## escribir buenos commits
+-usar el verbo imperativo (Add, Change, Fix, Reove)
+-Nouses puntos final ni suspensivos en los mensajes
+-Usar como maximo 50 caracteres
+-Añade todo el contexto que sea necesario
+-Considera usar utilidades para hacer commit
+-usa un prefijo para tus commits para hacerlos mas semanticos
+
+## Prefijo para commits
+
+style: para cambios de formato, tabulaciones, espacios o puntos y coma, etc; no afectan al usuario.
+test: para tests o refactorización de uno ya existente.
+
+feat: para una nueva característica para el usuario.
+
+fix: para un bug que afecta al usuario.
+
+perf: para cambios que mejoran el rendimiento del sitio.
+
+build: para cambios en el sistema de build, tareas de despliegue o instalación.
+
+ci: para cambios en la integración continua.
+
+docs: para cambios en la documentación.
+
+refactor: para refactorización del código como cambios de nombre de variables o funciones
+
+## ⚫Ejemplo
+feat.(backend): add filter for cars
+fix(web): remove wrong color
+
+
+##Escribir un buen nombre de rama
+
+-Sé consistente al nombrar tus ramas
+-Usa los IDs de JIRA o el sistema de tickets que uses
+-Usa el nombre de la acción que se realiza en la rama
+
+## ⚫Ejemplos
+bug/avoid-creating-lead-twice
+feature/add-new-user-form
+experiment/try-new-ui-design
+hotfix/fix-typo-in-name
