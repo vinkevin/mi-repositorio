@@ -132,6 +132,8 @@ a menudo, es mejor hacer commits pequeños agrupando pequeñas mejoras o accione
 ojo, no significa que debas hacer commits sin sentido
 Haz un commit cuando hay un cambio significatvo
 
+![imgP](img/imagesGit.png)
+
 ## escribir buenos commits
 -usar el verbo imperativo (Add, Change, Fix, Reove)
 -Nouses puntos final ni suspensivos en los mensajes
@@ -139,6 +141,8 @@ Haz un commit cuando hay un cambio significatvo
 -Añade todo el contexto que sea necesario
 -Considera usar utilidades para hacer commit
 -usa un prefijo para tus commits para hacerlos mas semanticos
+
+![imagenPerrito](img/PerreteGit.png)
 
 ## Prefijo para commits
 
