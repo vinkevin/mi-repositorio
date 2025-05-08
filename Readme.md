@@ -188,6 +188,8 @@ hotfix/fix-typo-in-name
 -Queremos recuperar una parte del código que eliminamos.
 -Queremos recuperar archivos que eliminamos.
 
+![reset](img/reset.png)
+
 ##git reset
 
 Posee 2 opciones
