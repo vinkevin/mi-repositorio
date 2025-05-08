@@ -179,3 +179,26 @@ bug/avoid-creating-lead-twice
 feature/add-new-user-form
 experiment/try-new-ui-design
 hotfix/fix-typo-in-name
+
+# clase 7
+
+##¿En qué casos deshacemos cambios?
+
+-Dejó de funcionar el proyecto.
+-Queremos recuperar una parte del código que eliminamos.
+-Queremos recuperar archivos que eliminamos.
+
+##git reset
+
+Posee 2 opciones
+
+-soft: Mantiene los cambios que ocurrieron antes de hacer commit desde donde apuntaba.
+-hard: Descarta los cambios.
+
+## git revert
+
+Revierte los cambios que un commit introdujo, y crea un nuevo commit con los cambios revertidos
+
+##git checkout
+
+Nos permite recuperar código específico de commits.
