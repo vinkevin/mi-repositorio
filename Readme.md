@@ -168,7 +168,7 @@ feat.(backend): add filter for cars
 fix(web): remove wrong color
 
 
-##Escribir un buen nombre de rama
+## Escribir un buen nombre de rama
 
 -Sé consistente al nombrar tus ramas
 -Usa los IDs de JIRA o el sistema de tickets que uses
@@ -182,7 +182,7 @@ hotfix/fix-typo-in-name
 
 # clase 7
 
-##¿En qué casos deshacemos cambios?
+## ¿En qué casos deshacemos cambios?
 
 -Dejó de funcionar el proyecto.
 -Queremos recuperar una parte del código que eliminamos.
@@ -190,7 +190,7 @@ hotfix/fix-typo-in-name
 
 ![reset](img/reset.png)
 
-##git reset
+## git reset
 
 Posee 2 opciones
 
@@ -201,6 +201,65 @@ Posee 2 opciones
 
 Revierte los cambios que un commit introdujo, y crea un nuevo commit con los cambios revertidos
 
-##git checkout
+## git checkout
 
 Nos permite recuperar código específico de commits.
+
+# Clase 8
+
+## ¿Qué es un Hook?
+
+Un hook, o punto de enganche, es la posibilidad de ejecutar una acción o script cada vez que ocurre un evento determinado de Git.
+Hay:
+-Hooks del lado del cliente
+-Hooks del lado del servidor
+
+## Hooks del lado del cliente
+
+Sólo afectan al repositorio local que los contiene.
+
+⚫ pre-commit
+
+Podrias comprobar si se está intentando hacer un commit de demasiados archivos Puede ser un buen sitio para ejecutar el linter sobre los archivos que han sido modificados.
+
+prepare-commit-msg
+
+Para modificar el mensaje del commit o añadir cualquier información extra.
+
+⚫ commit-msg
+
+Es el sitio perfecto para hacer todas las comprobaciones pertinentes al mensaje.
+
+⚫ post-commit
+
+Su uso principal es la de notificar por Slack.
+
+⚫ pre-push
+
+Para ejecutar una bateria de tests.
+
+⚫ post-checkout y post-merge
+
+Permite limpiar el directorio de trabajo, tras realizar un checkout, o el de limpiar las ramas que ya no se usah tras realizar un merge
+
+## Hooks del lado del servidor
+
+Es interesante conocerlos ya que páginas como GitHub o GitLab los usan intensivamente a la hora de construir.
+
+⚫ pre-receive
+
+Para comprobar que los commits que se quieren guardar están bien formados.
+
+Verificar que el usuario que intenta grabar los commits tiene los permisos necesarios para hacerlo.
+
+⚫ update
+
+Puedes evitar de una forma granular cada actualización.
+
+⚫ post-receive
+
+Enviar un correo a todos los usuarios del repositorio que se han grabado nuevos cambios en el repositorio remoto
+
+Reflejar en una UI las nuevas referencias, ramas a commits disponibles.
+
+
