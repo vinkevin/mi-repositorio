@@ -1,5 +1,7 @@
 # Clase 1 🧑‍💻​
 
+![image](img/Git-logo.svg.png)
+
 ## ¿Que es un control de versiones?
 es un sitema que registra cada cambio en el codigo de un proyecto
 
@@ -23,7 +25,9 @@ $ git --help ---> muestra los comandos que se puede usar
 
 # Clase 2 ​👨‍💻​
 
-¿Que es un commit?
+![image2](img/commit.jpg)
+
+## ¿Que es un commit?
 un commit registra cambios que se hicieron en el repositorio
 
 ¿Como hacer hago Commit?
@@ -51,13 +55,13 @@ acabamos de fusionar un archivo c++ de rama_c a la rama principal master
 ## ¿Por que eliminar ramas?
 por buena practica y las ramas tienen un proposito unico de corto periodo
 
-## comandos sobre ramas
+## Comandos sobre ramas
 $ git branch ---->ver ramas
 $ git switch nombreRama ---> cambiar de rama
 $ git checkout nombreRama ---> cambiar de rama
 $ git checkout -b nombreRama -----> creamos una rama
 
-## conflictos en git?????
+## Conflictos en git?????
 eso sucede cuando se ha realizado cambios en las mismas lineas en un fichero
 
 ## ¿Como resolver?
@@ -105,7 +109,7 @@ es el flujo de trabajo mas antiguo, utiliza las ramas:
 ## GitHub Flow
 Rama main y y calquiera otra rama que quiera ser integrada da un Pull Request
 
-![imagenGithub](img/gibhub.png)
+![imgGithub](img/gibhub.png)
 
 ## Trunk Based Development
 solo la rama main y ramas auxiliares efimeras que quiera ser integrada por medio de una Pull Request
@@ -275,7 +279,7 @@ Puedes usar todo tipo de intérpretes de lenguaje de programación como bash, no
 
 ![truco](img/truco.jpg)
 
-Guarda tus cambios temporalmente
+## Guarda tus cambios temporalmente
 
 -git stash
 
