@@ -1,4 +1,4 @@
-# Clase 1
+# Clase 1 🧑‍💻​
 
 ## ¿Que es un control de versiones?
 es un sitema que registra cada cambio en el codigo de un proyecto
@@ -21,7 +21,7 @@ $ git init ---> inicia el repositorio
 $ git --help ---> muestra los comandos que se puede usar
 
 
-# Clase 2
+# Clase 2 ​👨‍💻​
 
 ¿Que es un commit?
 un commit registra cambios que se hicieron en el repositorio
@@ -37,7 +37,7 @@ el HEAD es un puntero que apunta al repositorio actual donde se esta trabajando
 es un nuevo apuntador hacia una de las confirmaciones, 
 es como una division que creara "una copia" del repositorio donde se podra hacer cambios
 
-# Clase 3
+# Clase 3 ​🌳​
 ¿Para que sirven las ramas?
 permiten un desarrollo no lineal y colaborativo donde otras paersonas puedan colaborar
 
@@ -65,7 +65,7 @@ nos quedamos con los cambios de la rama main
 nos quedamos con los cambios de la rama changes
 modificamos para hacer una fusion personalizada
 
-# Clase 4
+# Clase 4 ​🦕​🦖​
 ## ¿Git y GitHub son lo mismo?
 no, git es un control de versiones 
 github es un servicio de alojamiento en la nube basado en el sistema git
@@ -91,7 +91,7 @@ o
 
 ![imagen](img/desastre9.jpg)
 
-# clase 5
+# clase 5 ​🙈​🙉​🙊​
 ## ¿Que es un gitFlow?
 es la manera en que un equipo de desarrollo utiliza Git
 
@@ -103,7 +103,7 @@ es el flujo de trabajo mas antiguo, utiliza las ramas:
 ![imagenGit](img/images.png)
 
 ## GitHub Flow
-Rama main y yalquiera otra rama que quiera ser integrada da un Pull Request
+Rama main y y calquiera otra rama que quiera ser integrada da un Pull Request
 
 ![imagenGithub](img/gibhub.png)
 
@@ -123,7 +123,7 @@ util si se cuenta cn un sistema CI/CD
 -El equipo sabe lidiar con el ego individual, las personas confian en el resto del equipo
 
 
-# clase 6
+# clase 6 ​🤔​
 
 ## ¿Para que sirven las buenas practicas?
 -es un estandar en los equipos de desarrollo
@@ -183,7 +183,7 @@ feature/add-new-user-form
 experiment/try-new-ui-design
 hotfix/fix-typo-in-name
 
-# clase 7
+# clase 7 ​❌​✔️​
 
 ## ¿En qué casos deshacemos cambios?
 
@@ -208,7 +208,7 @@ Revierte los cambios que un commit introdujo, y crea un nuevo commit con los cam
 
 Nos permite recuperar código específico de commits.
 
-# Clase 8
+# Clase 8 ​🧷​
 
 ## ¿Qué es un Hook?
 
