@@ -87,6 +87,7 @@ subir nuestra rama con git push y
 o
 2 ir al apartado Pull Request
 ## prueba de imagen
+
 ![imagen](img/desastre9.jpg)
 
 # clase 5
@@ -97,6 +98,7 @@ es la manera en que un equipo de desarrollo utiliza Git
 es el flujo de trabajo mas antiguo, utiliza las ramas:
 1 main o master: contener el codigo de produccion
 2 develop: codigo que esta en desarrollo en pruebas y ser validada
+
 ![imagenGit](img/images.png)
 
 ## GitHub Flow
@@ -262,4 +264,34 @@ Enviar un correo a todos los usuarios del repositorio que se han grabado nuevos 
 
 Reflejar en una UI las nuevas referencias, ramas a commits disponibles.
 
+## Creando mi primer hook
 
+Para crear un propio hook sólo tienes que crear un archivo nombre-del-hook en la carpeta .git/hooks y en él poner el código que quieras que se ejecute.
+
+Puedes usar todo tipo de intérpretes de lenguaje de programación como bash, node, python, perl, etc.
+
+## Trucos en Git
+
+Guarda tus cambios temporalmente
+
+-git stash
+
+-git stash -u
+
+-git stash pop
+
+## Aplicar cambios de commits en específico
+
+-git cherry-pick <SHA>
+
+## Detectar qué commit es el que ha introducido un bug
+
+-git bisect
+
+-git bisect start
+
+-git bisect bad
+
+-git bisect good
+
+-git bisect reset
